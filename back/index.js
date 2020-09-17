@@ -9,7 +9,6 @@ const axios = require('axios')
 
 var bodyParser = require('body-parser');
 
-const favorisModel = require('./schema/favoris');
 const evenementModel = require('./schema/evenement');
 
 app.use(cors())
